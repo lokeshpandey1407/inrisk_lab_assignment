@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Jordan Proto-Lyte</title>
+  </head>
+  <body
+    class="min-h-screen flex justify-center items-center bg-red-300 box-border"
+  >
+    <div
+      class="w-full lg:w-4/5 mx-10 xl:w-3/5 h-4/5 min-w-3/5 my-5 bg-white flex flex-col rounded-xl overflow-hidden transition-all duration-300 ease-in-out md:flex-row"
+    >
+      <!-- left div for image -->
+      <div
+        class="flex-1 h-40 md:h-auto bg-red-400 flex justify-center items-center transition-all duration-300 ease-in-out"
+      >
+        <img
+          src="./assets/nike.png"
+          alt="Nike Shoe"
+          class="rotate-0 md:-rotate-12 p-5 transition-all duration-300 ease-in-out max-h-full"
+        />
+      </div>
+      <!-- right div for product content -->
+      <div class="flex-1 bg-slate-950 p-5 min-w-20 text-white">
+        <p class="text-3xl font-sans font-bold text-red-400">
+          Jordan Proto-Lyte
+        </p>
+        <div class="flex flex-col gap-10 justify-between">
+          <p class="uppercase font-bold text-slate-500 text-xl mt-4 md:mt-10">
+            Running Collection
+          </p>
+          <p class="w-4/5 leading-7">
+            Praised for its classic simplicity and comfort, the original hoops
+            look is now yours to customise. From a variety of materials,
+            including a floral graphic on canvas, to fun-loving summertime
+            colours, it lets you leave your mark.
+          </p>
+          <button
+            class="w-fit self-center bg-black-400 px-6 py-2 rounded-md text-white uppercase font-bold border-solid border-2 border-white hover:bg-red-400 transition-all duration-300 ease-in-out hover:text-black"
+          >
+            Buy Now
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
